@@ -94,3 +94,10 @@ https://roadmap.sh/projects/js-temperature-converter
 https://roadmap.sh/projects/js-number-checker
 https://roadmap.sh/projects/js-string-formatter
 https://roadmap.sh/projects/js-price-calculator
+
+## Roadmap Solutions URL
+https://roadmap.sh/projects/js-greeting-builder/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-temperature-converter/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-number-checker/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-string-formatter/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-price-calculator/solutions?u=69e5fd6035198b31d65b82ba
