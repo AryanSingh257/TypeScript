@@ -2,15 +2,6 @@
 
 A small collection of TypeScript and JavaScript practice programs.
 
-## 📁 Files
-
-| TypeScript    | Compiled JavaScript |
-| ------------- | ------------------- |
-| `greeting.ts` | `greeting.js`       |
-| `numberer.ts` | `numberer.js`       |
-| `pricing.ts`  | `pricing.js`        |
-| `temp.ts`     | `temp.js`           |
-
 The `.ts` files contain the TypeScript source code, while the `.js` files are the JavaScript versions that can be executed directly with Node.js.
 
 ## Requirements
@@ -36,10 +27,7 @@ npm install -g typescript
 JavaScript files can be executed directly with Node.js:
 
 ```bash
-node greeting.js
-node numberer.js
-node pricing.js
-node temp.js
+node fileName.js
 ```
 
 ## ▶️ Run TypeScript
@@ -49,16 +37,9 @@ TypeScript files need to be compiled before running.
 ### Compile a single file
 
 ```bash
-tsc greeting.ts
-node greeting.js
-```
-
-For example:
-
-```bash
-tsc numberer.ts
-node numberer.js
-```
+tsc fileName.ts
+node fileName.js
+````
 
 ### Compile all TypeScript files
 
@@ -71,10 +52,7 @@ This generates/updates the corresponding `.js` files.
 Then run whichever program you want:
 
 ```bash
-node greeting.js
-node numberer.js
-node pricing.js
-node temp.js
+node fileName.js
 ```
 
 ## 🔄 TypeScript → JavaScript
@@ -93,26 +71,26 @@ The general workflow is:
 Program output
 ```
 
-For example:
-
-```bash
-tsc greeting.ts
-node greeting.js
-```
-
 ## 🧪 Quick Comparison
 
 Run the JavaScript directly:
 
 ```bash
-node greeting.js
+node fileName.js
 ```
 
 Or compile and run the TypeScript source:
 
 ```bash
-tsc greeting.ts
-node greeting.js
+tsc fileName.ts
+node fileName.js
 ```
 
 Both should produce the same program behavior when the `.js` file was generated from that `.ts` source.
+
+## Roadmap URL
+https://roadmap.sh/projects/js-greeting-builder
+https://roadmap.sh/projects/js-temperature-converter
+https://roadmap.sh/projects/js-number-checker
+https://roadmap.sh/projects/js-string-formatter
+https://roadmap.sh/projects/js-price-calculator
