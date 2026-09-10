@@ -94,6 +94,8 @@ https://roadmap.sh/projects/js-temperature-converter
 https://roadmap.sh/projects/js-number-checker
 https://roadmap.sh/projects/js-string-formatter
 https://roadmap.sh/projects/js-price-calculator
+https://roadmap.sh/projects/js-cart-total-calculator
+https://roadmap.sh/projects/js-grade-report-generator
 
 ## Roadmap Solutions URL
 https://roadmap.sh/projects/js-greeting-builder/solutions?u=69e5fd6035198b31d65b82ba
