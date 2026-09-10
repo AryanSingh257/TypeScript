@@ -103,3 +103,5 @@ https://roadmap.sh/projects/js-temperature-converter/solutions?u=69e5fd6035198b3
 https://roadmap.sh/projects/js-number-checker/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-string-formatter/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-price-calculator/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-cart-total-calculator/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-grade-report-generator/solutions?u=69e5fd6035198b31d65b82ba
