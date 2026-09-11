@@ -28,10 +28,8 @@ function getFeedback(grade:string):string{
   if(grade==='A'){
     return 'Excelent Work'
   }else if(grade==='B'){
-    return 'You can do more';
-  }else if(grade==='C'){
-    return 'You passed';
-  }else if(grade==='D'){
+    return 'Great work';
+  }else if(grade==='C' || grade==='D'){
     return 'You passed';
   }else{
     return 'Keep practicing';

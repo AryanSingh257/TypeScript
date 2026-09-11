@@ -24,12 +24,9 @@ function getFeedback(grade) {
         return 'Excelent Work';
     }
     else if (grade === 'B') {
-        return 'You can do more';
+        return 'Great work';
     }
-    else if (grade === 'C') {
-        return 'You passed';
-    }
-    else if (grade === 'D') {
+    else if (grade === 'C' || grade === 'D') {
         return 'You passed';
     }
     else {
