@@ -108,3 +108,6 @@ https://roadmap.sh/projects/js-string-formatter/solutions?u=69e5fd6035198b31d65b
 https://roadmap.sh/projects/js-price-calculator/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-cart-total-calculator/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-grade-report-generator/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-task-list-utilities/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-expense-summary/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-product-search-and-filter/solutions?u=69e5fd6035198b31d65b82ba
