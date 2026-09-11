@@ -96,6 +96,9 @@ https://roadmap.sh/projects/js-string-formatter
 https://roadmap.sh/projects/js-price-calculator
 https://roadmap.sh/projects/js-cart-total-calculator
 https://roadmap.sh/projects/js-grade-report-generator
+https://roadmap.sh/projects/js-task-list-utilities
+https://roadmap.sh/projects/js-expense-summary
+https://roadmap.sh/projects/js-product-search-and-filter
 
 ## Roadmap Solutions URL
 https://roadmap.sh/projects/js-greeting-builder/solutions?u=69e5fd6035198b31d65b82ba
