@@ -102,6 +102,7 @@ https://roadmap.sh/projects/js-product-search-and-filter
 https://roadmap.sh/projects/js-user-profile-formatter
 https://roadmap.sh/projects/js-quiz-score-calculator
 https://roadmap.sh/projects/js-json-response-normalizer
+https://roadmap.sh/projects/js-password-rule-checker
 
 ## Roadmap Solutions URL
 https://roadmap.sh/projects/js-greeting-builder/solutions?u=69e5fd6035198b31d65b82ba
@@ -116,3 +117,4 @@ https://roadmap.sh/projects/js-expense-summary/solutions?u=69e5fd6035198b31d65b8
 https://roadmap.sh/projects/js-product-search-and-filter/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-user-profile-formatter/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-quiz-score-calculator/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/js-json-response-normalizer/solutions?u=69e5fd6035198b31d65b82ba
