@@ -1,0 +1,55 @@
+html,body{
+    height: 95.75%;
+    width: 97%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+#cookie-card{
+    height: 30%;
+    width: 40%;
+    margin: 1em;
+    padding: 1em;
+
+    border-radius: 0.5em;
+    background-color: #000;
+    font-size:1.5em;
+    color: #fff;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translateY(120%);
+    transition: transform 0.4s ease-out;
+
+    display:grid;
+}
+
+#cookie-card.show {
+    transform: translateY(0);
+}
+
+button{
+    border: 0;
+    border-radius: 5px;
+    margin: 1em;
+    height: 40px;
+    font-size: 1em;
+    background-color: #fff;
+}
+
+button:hover{
+    background-color: #ddd;
+}
+
+h1{
+    color: #000;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -100%;
+    font-size: 6em;
+    /* background-color: #222; */
+}

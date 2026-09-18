@@ -1,5 +1,3 @@
-import './style.css';
-
 const contents: Record<string, string> = {
   '1': `
     <p>Welcome to our store</p>
