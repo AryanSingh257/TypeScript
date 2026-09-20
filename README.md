@@ -106,6 +106,7 @@ https://roadmap.sh/projects/js-password-rule-checker
 https://roadmap.sh/projects/js-order-status-helper
 https://roadmap.sh/projects/simple-tabs
 https://roadmap.sh/projects/cookie-consent
+https://roadmap.sh/projects/restricted-textarea
 
 ## Roadmap Solutions URL
 https://roadmap.sh/projects/js-greeting-builder/solutions?u=69e5fd6035198b31d65b82ba
@@ -124,3 +125,4 @@ https://roadmap.sh/projects/js-json-response-normalizer/solutions?u=69e5fd603519
 https://roadmap.sh/projects/js-password-rule-checker/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/js-order-status-helper/solutions?u=69e5fd6035198b31d65b82ba
 https://roadmap.sh/projects/simple-tabs/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/cookie-consent/solutions?u=69e5fd6035198b31d65b82ba
