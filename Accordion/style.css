@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+html,body{
+    height: 97vh;
+    width: 97vw;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-left: 1em;
+}
+
+.header{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.card {
+    width: 95%;
+    /* padding: 1em; */
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* height: 30px; */
+
+    padding: 1em;
+    
+    font-weight: 600;
+    font-size: 1.2em;
+    
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.accordion-content {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+
+    transition:
+        grid-template-rows 0.4s ease,
+        opacity 0.3s ease,
+        margin 0.4s ease;
+}
+
+.content-inner {
+    min-height: 0;
+    overflow: hidden;
+
+    border: 0 solid #000;
+    border-radius: 10px;
+    padding: 0 1em;
+
+    transition:
+        padding 0.4s ease,
+        border-width 0.4s ease;
+}
+
+.content-inner p {
+    margin: 1em 0;
+}
+
+.card.open .accordion-content {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    margin-top: 1em;
+}
+
+.card.open .content-inner {
+    border: 3px solid #000;
+    padding: 1em;
+}
+.card.open .header span {
+    transform: rotate(180deg);
+}
+
+.header:hover {
+    background-color: #111;
+}
