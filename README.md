@@ -108,4 +108,7 @@ https://roadmap.sh/projects/simple-tabs
 https://roadmap.sh/projects/cookie-consent
 https://roadmap.sh/projects/restricted-textarea
 https://roadmap.sh/projects/accordion
+<<<<<<< HEAD
 https://roadmap.sh/projects/age-calculator
+=======
+>>>>>>> 18bf7831cb9f9d27eda9da9081a2773eb6ef57e1
