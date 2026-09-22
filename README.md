@@ -108,23 +108,4 @@ https://roadmap.sh/projects/simple-tabs
 https://roadmap.sh/projects/cookie-consent
 https://roadmap.sh/projects/restricted-textarea
 https://roadmap.sh/projects/accordion
-
-## Roadmap Solutions URL
-https://roadmap.sh/projects/js-greeting-builder/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-temperature-converter/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-number-checker/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-string-formatter/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-price-calculator/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-cart-total-calculator/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-grade-report-generator/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-task-list-utilities/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-expense-summary/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-product-search-and-filter/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-user-profile-formatter/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-quiz-score-calculator/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-json-response-normalizer/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-password-rule-checker/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/js-order-status-helper/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/simple-tabs/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/cookie-consent/solutions?u=69e5fd6035198b31d65b82ba
-https://roadmap.sh/projects/restricted-textarea/solutions?u=69e5fd6035198b31d65b82ba
+https://roadmap.sh/projects/age-calculator
