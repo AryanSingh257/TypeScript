@@ -1,0 +1,197 @@
+
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "HTML",
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "HyperTool Multi Language",
+        "HomeText Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "category": "HTML",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "category": "HTML",
+      "question": "Which HTML tag is used to display an image?",
+      "options": [
+        "<picture>",
+        "<image>",
+        "<img>",
+        "<src>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "category": "HTML",
+      "question": "What is the purpose of the <title> tag?",
+      "options": [
+        "To create a heading inside the page",
+        "To display a tooltip",
+        "To add a title to an image",
+        "To set the title displayed in the browser tab"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 5,
+      "category": "CSS",
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Computer Style System",
+        "Creative Styling Syntax",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "category": "CSS",
+      "question": "Which CSS property changes the text color?",
+      "options": [
+        "background-color",
+        "font-color",
+        "color",
+        "text-style"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "category": "CSS",
+      "question": "Which declaration creates a flex container?",
+      "options": [
+        "position: flex;",
+        "display: flex;",
+        "flex: display;",
+        "layout: flex;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "category": "CSS",
+      "question": "What is the difference between margin and padding?",
+      "options": [
+        "They both create space inside the border",
+        "Margin changes text size and padding changes color",
+        "Padding creates space outside the border",
+        "Margin creates space outside the border, while padding creates space inside it"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "category": "JavaScript",
+      "question": "Which keyword declares a block-scoped variable that cannot be reassigned?",
+      "options": [
+        "const",
+        "var",
+        "let",
+        "static"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "category": "JavaScript",
+      "question": "What is the purpose of console.log()?",
+      "options": [
+        "To create an HTML element",
+        "To print information to the console",
+        "To stop a JavaScript program",
+        "To request data from a server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "category": "JavaScript",
+      "question": "Which method selects an element using a CSS selector?",
+      "options": [
+        "document.getElement()",
+        "document.select()",
+        "document.querySelector()",
+        "document.findSelector()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "category": "JavaScript",
+      "question": "Which method attaches an event listener to an element?",
+      "options": [
+        "addEventListener()",
+        "attachEventHandler()",
+        "listenEvent()",
+        "createListener()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "category": "TypeScript",
+      "question": "What is TypeScript?",
+      "options": [
+        "A CSS framework",
+        "A database language",
+        "A replacement for HTML",
+        "JavaScript with static type-checking features"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "category": "TypeScript",
+      "question": "Which keyword defines a custom type alias in TypeScript?",
+      "options": [
+        "interface",
+        "type",
+        "class",
+        "typedef"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "category": "TypeScript",
+      "question": "How do you specify that a variable should contain a string?",
+      "options": [
+        "let name = string;",
+        "let name: text;",
+        "let name: string;",
+        "string name = let;"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "category": "TypeScript",
+      "question": "What is the usual file extension for a TypeScript source file?",
+      "options": [
+        ".ts",
+        ".js",
+        ".tsxhtml",
+        ".type"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

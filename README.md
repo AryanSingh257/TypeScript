@@ -89,6 +89,7 @@ node fileName.js
 Both should produce the same program behavior when the `.js` file was generated from that `.ts` source.
 
 ## Roadmap URL
+
 https://roadmap.sh/projects/js-greeting-builder
 https://roadmap.sh/projects/js-temperature-converter
 https://roadmap.sh/projects/js-number-checker
@@ -108,7 +109,5 @@ https://roadmap.sh/projects/simple-tabs
 https://roadmap.sh/projects/cookie-consent
 https://roadmap.sh/projects/restricted-textarea
 https://roadmap.sh/projects/accordion
-<<<<<<< HEAD
 https://roadmap.sh/projects/age-calculator
-=======
->>>>>>> 18bf7831cb9f9d27eda9da9081a2773eb6ef57e1
+https://roadmap.sh/projects/quiz-app
