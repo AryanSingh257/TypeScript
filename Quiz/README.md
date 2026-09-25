@@ -1,42 +1,53 @@
-# sv
+# Quiz
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple web-based quiz built with **SvelteKit and TypeScript**.
 
-## Creating a project
+The project focuses on creating a clean, minimal quiz interface while practicing
+Svelte 5 state management, TypeScript, JSON data handling, timers, conditional
+rendering, and interactive UI design.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```sh
-# create a new project
-npx sv create my-app
-```
+- Multiple-choice quiz questions
+- Questions loaded from a JSON file
+- Questions shuffled when the quiz starts
+- HTML, CSS, JavaScript, and TypeScript categories
+- One question displayed at a time
+- Answer selection and validation
+- Correct and incorrect answer feedback
+- Score tracking
+- Negative marking for incorrect answers
+- Score cannot fall below `0`
+- Per-question countdown timer
+- Animated circular stopwatch
+- Automatic progression when the timer expires
+- Progress indicator showing the current question
+- Final score screen
+- Loading and error states
+- Responsive card-based interface
+- Monochrome UI with elevated cards and buttons
 
-To recreate this project with the same configuration:
+## Tech Stack
 
-```sh
-# recreate this project
-npx sv@0.17.1 create --template minimal --types ts --install npm Quiz
-```
+- **SvelteKit**
+- **Svelte 5**
+- **TypeScript**
+- **CSS**
+- **JSON**
 
-## Developing
+## Project Structure
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```text
+Quiz/
+├── static/
+│   └── questions.json
+│
+├── src/
+│   └── routes/
+│       └── quiz/
+│           └── +page.svelte
+│
+├── package.json
+├── svelte.config.js
+├── vite.config.ts
+└── README.md
