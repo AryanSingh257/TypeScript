@@ -2,7 +2,7 @@
 
 A clean, responsive weather application built with **SvelteKit** and **TypeScript**. It shows current conditions, hourly/daily forecasts, wind direction, precipitation, and sunrise/sunset progress, using the [Visual Crossing Weather API](https://www.visualcrossing.com/weather).
 
-(./static/screenshot.png)
+![weather screenshot png](./static/screenshot.png)
 
 ---
 
