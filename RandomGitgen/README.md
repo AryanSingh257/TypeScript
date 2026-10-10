@@ -153,7 +153,3 @@ GitHub API requests can be rate-limited. The app should display a helpful messag
 - **OpenAI ChatGPT** — assistance with implementation guidance, TypeScript/Svelte debugging, API integration, and documentation drafting.
 
 This project is an independent learning project and is not affiliated with or endorsed by GitHub. Product names and logos belong to their respective owners.
-
-## License
-
-No license has been specified yet. Add a `LICENSE` file before presenting the project as open source. If you choose a license, make sure it fits how you want others to use, modify, and distribute the code.
