@@ -202,10 +202,10 @@
 		const sunrise = reduceToSeconds(current.sunrise);
 		const sunset = reduceToSeconds(current.sunset);
 
-		return Math.max(
+		return Math.floor(Math.max(
 			0,
 			Math.min(100, ((now - sunrise) / (sunset - sunrise)) * 100)
-		);
+		));
 	});
 
 	let sun=$state(0);
@@ -217,7 +217,7 @@
 		}
 	},20)
 
-	 let animatedTemp = $state(0);
+	let animatedTemp = $state(0);
 
 	$effect(() => {
 		const target = Math.round(current?.temp ?? 0);

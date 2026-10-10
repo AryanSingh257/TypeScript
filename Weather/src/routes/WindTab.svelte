@@ -26,8 +26,8 @@
             >
                 <span class="text-sm font-medium">{item.dateTime}</span>
 
-                <motion.div
-                animate={{rotate: item.windDir}}
+                <motion.div 
+                whileInView={{rotate: item.windDir}}
                 transition={{ type: "spring", stiffness: 100, damping: 20}}
                 >
                     <ArrowUp
