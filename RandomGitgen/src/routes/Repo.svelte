@@ -5,7 +5,6 @@ import * as Card from "#lib/components/ui/card/index.ts";
 import { Star, GitFork } from "@lucide/svelte";
 import { Github } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/svelte";
-import SvelteMarkdown from "@humanspeak/svelte-markdown";
 
 let { language, requestId }: { language: string, requestId: number } = $props();
 
@@ -60,21 +59,6 @@ async function getRandomResponse(language:string) {
         const randomIndex = Math.floor(Math.random() * data.items.length);
         
         repo = data.items[randomIndex];
-
-        const readmeResponse = await fetch(
-            `https://api.github.com/repos/${repo.full_name}/readme`,
-            {
-                headers: {
-                    Accept: "applications/vnd.github.raw+json"
-                }
-            }
-        );
-
-        if(readmeResponse.ok){
-            readme = await readmeResponse.text();
-        }else{
-            readme = "";
-        }
 
     }catch(err){
         error = err instanceof Error ? err.message : "Something went wrong. Please Try again.";
@@ -138,54 +122,21 @@ $effect(()=>{
     
     </Card.Header>
     
-    <Card.Content>
-
-            {#if error}
-
-            <p role="alert" class="text-sm text-destructive">{error}</p>
-
-            {/if}
-
-            {#if readme}
-
-            <!-- <pre class="whitespace-pre-wrap wrap-break-words text-sm">{readme.slice(0, 1500)}</pre> -->
-
-            <!-- Markdown part is not done by me bith the styles and this block ismade with gpt. -->
-            <div
-            class="prose prose-sm max-w-none
-                    max-h-175 overflow-y-auto
-                    rounded-lg border bg-white p-6
-                    prose-headings:font-bold
-                    prose-a:text-blue-600
-                    prose-pre:overflow-x-auto"
-            >
-                <SvelteMarkdown source={readme} />
-            </div>
-
-            {:else}
-
-            <p class="text-sm text-muted-foreground">
-                No README available for this repository.
-            </p>
-                
-            {/if}
-        
-    </Card.Content>
-    
     <Card.Footer class="flex w-full justify-between">
     
         <p class="text-sm text-muted-foreground">{repo?.language ?? "_"}</p>
-
-        <div class="flex justify-between w-20 mr-2">
         
-            <div class="flex">
+
+        <div class="flex justify-between w-40 mr-2">
+        
+            <div class="flex gap-1">
             
                 <Star size={16}/>
                 <p class="text-sm text-muted-foreground">{repo?.stargazers_count ?? "_"}</p>
     
             </div>
             
-            <div class="flex">
+            <div class="flex gap-1">
             
                 <GitFork size={16}/>
                 <p class="text-sm text-muted-foreground">{repo?.forks_count ?? "_"}</p>
@@ -199,75 +150,3 @@ $effect(()=>{
     {/if}
 
 </Card.Root>
-
-<style>
-
-  :global(.prose p) {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.7;
-  }
-
-  :global(.prose h1),
-  :global(.prose h2),
-  :global(.prose h3) {
-    margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.3;
-  }
-
-  :global(.prose ul),
-  :global(.prose ol) {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-    padding-left: 1.5rem;
-  }
-
-  :global(.prose li) {
-    margin-top: 0.35rem;
-    margin-bottom: 0.35rem;
-    line-height: 1.6;
-  }
-
-  :global(.prose pre) {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background: #f3f4f6;
-    overflow-x: auto;
-  }
-
-  :global(.prose img) {
-    max-width: 100%;
-    height: auto;
-  }
-
-  :global(.prose ul) {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-    margin-block: 1rem;
-  }
-
-  :global(.prose ol) {
-    list-style-type: decimal;
-    padding-left: 1.5rem;
-    margin-block: 1rem;
-  }
-
-  :global(.prose li) {
-    display: list-item;
-    margin-block: 0.35rem;
-    line-height: 1.6;
-  }
-
-  :global(.prose li > ul),
-  :global(.prose li > ol) {
-    margin-block: 0.35rem;
-  }
-
-  :global(.prose li > p) {
-    margin-block: 0.35rem;
-  }
-  
-</style>
