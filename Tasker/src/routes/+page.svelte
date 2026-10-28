@@ -100,7 +100,10 @@ let taskings = $derived<Tasks>(
             <Card.Action>
                 <Button
                     variant="ghost"
-                    onclick={() => delteTask(tasker.uuid)}
+                    onclick={() => {
+                        delteTask(tasker.uuid)
+                        toast.info("A task has been deleted.")
+                    }}
                     size="icon"
                     type="button"
                     class="shrink-0 text-stone-500 hover:bg-red-50 hover:text-red-600"
